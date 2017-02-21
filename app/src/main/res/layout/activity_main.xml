@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    android:gravity="center"
+    android:clipChildren="false"
+    tools:context="com.roll.scroll.ke_li.rollingscroll.MainActivity">
+
+    <com.roll.scroll.ke_li.rollingscroll.view.ScrollLayout
+        android:layout_width="0px"
+        android:layout_weight="0.4"
+        android:layout_height="300dp"
+        android:clipChildren="false"
+        android:overScrollMode="never"
+        android:id="@+id/list_contain"
+        />
+
+
+</LinearLayout>
